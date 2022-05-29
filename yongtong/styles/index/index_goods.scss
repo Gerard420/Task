@@ -1,0 +1,128 @@
+@import "../base/base.scss";
+@import "./index_header/indexHeader.scss";
+@import "./index_footer/indexFooter.scss";
+//  index_header
+.indexHeader {
+  @include index_header;
+}
+
+//  goods_nav
+.goodsNav {
+  h4 {
+    color: #fff;
+    font-size: $font16;
+    height: 20px;
+    padding: 40px 0 56px;
+
+  }
+
+  background-color: $logo_color_blue;
+  border-bottom: #fff 2px solid;
+
+  .center_wrap {
+    position: relative;
+
+    .goods_nav_list {
+      display: flex;
+      justify-content: space-between;
+      height: 100px;
+
+
+      .goods_nav_item {
+        flex-direction: row;
+        width: 12.5%;
+        height: 100px;
+        text-align: center;
+      }
+    }
+
+    .line {
+      height: 4px;
+      width: 12.5%;
+      background-color: #fff;
+      position: absolute;
+      bottom: 0;
+    }
+
+  }
+}
+
+//  goods_content
+.goodsContent {
+  img {
+    width: 102px;
+    height: 71px;
+    display: block;
+  }
+
+  background-color: rgba(95, 130, 226, 0.6);
+  height: 924px;
+
+  .goods_content_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .goods_content_item {
+      flex-direction: row;
+      width: 32.5%;
+      height: 130px;
+      background-color: #fff;
+      margin: 12px 0;
+    }
+  }
+
+  .wrap {
+    display: flex;
+    font-size: $font12;
+    justify-content: space-around;
+
+
+    .wrap_left {
+      flex-direction: row;
+      margin-top: 14px;
+
+      .title {
+        color: $title_color;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 6px;
+      }
+    }
+
+    .wrap_right {
+      flex-direction: row;
+      margin-top: 18px;
+
+      p {
+        margin: 10px 0;
+      }
+
+      .text {
+        display: flex;
+        align-items: flex-end;
+
+        .text_title {
+          flex-direction: row;
+
+        }
+
+        .text_word {
+          flex-direction: row;
+
+        }
+      }
+
+
+      p {
+        color: #666;
+      }
+    }
+  }
+}
+
+//  index_footer
+.indexFooter {
+  height: 610px;
+  @include index_footer;
+}

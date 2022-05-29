@@ -1,0 +1,37 @@
+@import "../../base/base.scss";
+
+@mixin index_nav_hidden {
+  .nav_hidden_list {
+    position: absolute;
+
+    .nav_hidden_icon {
+      position: relative;
+      left: 41%;
+      width: 0;
+      height: 0;
+      border: 10px solid transparent;
+      border-bottom-color: $logo_color_blue;
+      border-top: none;
+    }
+
+    .nav_hidden_item {
+      width: 140px;
+      background: $logo_color_blue;
+      box-sizing: border-box;
+      border-bottom: 1px solid #1a5799;
+      text-align: center;
+      height: 32px;
+
+      h3 {
+        padding-top: 6px;
+        font-size: 14px;
+        color: #ffffff;
+
+      }
+    }
+
+    .nav_hidden_item:nth-last-child(1) {
+      border-bottom: none;
+    }
+  }
+}

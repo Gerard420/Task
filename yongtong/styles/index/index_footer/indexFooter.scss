@@ -1,0 +1,74 @@
+@import "../../base/base.scss";
+
+@mixin index_footer {
+  .footer_top {
+    height: 430px;
+    padding: 50px;
+
+    .footer_logo {
+      img {
+        width: 146px;
+        height: 54px;
+        margin: 50px auto 30px;
+      }
+    }
+
+    .footer_nav {
+      .nav_list {
+        overflow: hidden;
+
+        .list_item {
+          width: 20%;
+          float: left;
+
+          h5 {
+            font-size: $font16;
+            color: $title_color;
+            font-weight: bold;
+            margin: 10px 0 20px;
+          }
+
+          .list_wrap {
+            ul {
+              li {
+                padding-bottom: 6px;
+
+                a {
+                  color: $other_color;
+                  font-size: $font12;
+                }
+              }
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+  .footer_bottom {
+    background-color: $logo_color_blue;
+    height: 80px;
+
+    .center_wrap {
+      height: 80px;
+    }
+
+    .footer_information {
+      overflow: hidden;
+      padding: 32px 0;
+
+      div {
+        float: right;
+        color: #fff;
+        font-weight: normal;
+        font-size: 12px;
+        padding: 0 6px;
+      }
+
+      div:nth-child(1) {
+        float: left;
+      }
+    }
+  }
+}

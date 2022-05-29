@@ -1,0 +1,39 @@
+//  文字大小规范
+$font12: 12px;
+$font16: 16px;
+$font18: 18px;
+$font20: 20px;
+$font22: 22px;
+$font24: 24px;
+$font26: 26px;
+$font28: 28px;
+
+//  色彩规范
+$text_color: #000;
+$other_color: #615f5f;
+$btn_color_grey: #b6b6b6;
+$btn_color_org: #e9a666;
+$logo_color_blue: #263993;
+$logo_color_org: #E8502E;
+$title_color: #00448d;
+
+
+//  版心
+
+.center_wrap {
+  width: 1152px;
+  margin: 0 auto;
+}
+
+@mixin warning_item{
+  color: red;
+  text-align: center;
+}
+
+
+
+
+
+
+
+

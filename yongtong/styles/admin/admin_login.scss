@@ -1,0 +1,70 @@
+@import "../base/base.scss";
+@import "../index/index_header/indexHeader.scss";
+
+//  index_header
+.indexHeader {
+  @include index_header;
+
+  .header_nav {
+    display: none;
+  }
+}
+
+//  admin_login
+.adminLogin {
+  .banner {
+    margin: 40px auto 20px;
+    width: 80%;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .login_form {
+    width: 80%;
+    margin: 10px auto;
+
+    form {
+      display: flex;
+      justify-content: space-around;
+
+      .login_item {
+        width: 32%;
+        flex-direction: row;
+        display: flex;
+        height: 18px;
+        align-items: center;
+
+        input {
+          font-size: $font12;
+          margin-left: 8px;
+          flex-direction: row;
+          width: 64%;
+        }
+
+        span {
+          display: inline-block;
+          font-size: 14px;
+          flex-direction: row;
+
+        }
+      }
+
+      .login_btn {
+        width: 10%;
+
+        input {
+          height: 18px;
+          width: 100%;
+          margin-left: 0;
+          border: none;
+        }
+      }
+    }
+  }
+  .warning_item{
+    @include warning_item;
+  }
+}

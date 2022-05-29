@@ -1,0 +1,129 @@
+.center_wrap {
+  width: 1152px;
+  margin: 0 auto; }
+
+.center_wrap {
+  width: 1152px;
+  margin: 0 auto; }
+
+.admin_warehouse {
+  overflow: hidden; }
+
+.adminNav {
+  float: left;
+  height: 100%;
+  width: 20%;
+  background-color: #263993;
+  position: fixed; }
+  .adminNav img {
+    display: inline-block;
+    width: 146px;
+    height: 54px; }
+  .adminNav .nav_list {
+    display: flex;
+    flex-wrap: wrap; }
+    .adminNav .nav_list .nav_item {
+      flex-direction: column;
+      width: 100%;
+      height: 72px;
+      border-bottom: 0.8px solid #fff; }
+      .adminNav .nav_list .nav_item .nav_img {
+        height: 96px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .adminNav .nav_list .nav_item .nav_title {
+        display: flex;
+        width: 100%;
+        height: 72px;
+        justify-content: center;
+        align-items: center; }
+        .adminNav .nav_list .nav_item .nav_title h3 {
+          color: #ddd;
+          font-size: 20px; }
+    .adminNav .nav_list .nav_item:nth-child(1) {
+      height: 96px; }
+  .adminNav .nav_item:nth-child(2) {
+    background: #E8502E; }
+
+.adminWarehouse {
+  width: 80%;
+  float: right; }
+  .adminWarehouse .warehouse_header {
+    width: 100%;
+    height: 96px;
+    background-color: #263993; }
+    .adminWarehouse .warehouse_header .center_wrap {
+      height: 96px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .adminWarehouse .warehouse_header .center_wrap h2 {
+        color: #fff;
+        font-size: 38px;
+        font-weight: 650; }
+  .adminWarehouse .warehouse_search {
+    margin-top: 20px;
+    height: 64px;
+    width: 100%; }
+    .adminWarehouse .warehouse_search .center_wrap {
+      height: 64px; }
+      .adminWarehouse .warehouse_search .center_wrap form {
+        height: 64px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .adminWarehouse .warehouse_search .center_wrap input {
+        height: 36px;
+        width: 360px;
+        background-color: transparent;
+        border: none; }
+      .adminWarehouse .warehouse_search .center_wrap .warehouse_information {
+        padding-left: 12px;
+        height: 32px;
+        background-color: #fff;
+        border: 2px solid #263993; }
+      .adminWarehouse .warehouse_search .center_wrap .warehouse_btn {
+        margin-left: 20px;
+        width: 60px;
+        background-color: #263993;
+        color: #fff;
+        cursor: pointer; }
+  .adminWarehouse .warehouse_text {
+    margin-top: 32px; }
+    .adminWarehouse .warehouse_text .warehouse_table {
+      width: 100%; }
+      .adminWarehouse .warehouse_text .warehouse_table input {
+        border: none;
+        background-color: transparent;
+        width: 100%;
+        text-align: center; }
+      .adminWarehouse .warehouse_text .warehouse_table .table_title th {
+        color: #fff;
+        font-weight: 600;
+        text-align: center;
+        border-right: 0.5px solid #fff; }
+      .adminWarehouse .warehouse_text .warehouse_table .table_title th:nth-last-child(1) {
+        border-right: none; }
+      .adminWarehouse .warehouse_text .warehouse_table .table_list td {
+        border-right: 0.5px solid #fff; }
+      .adminWarehouse .warehouse_text .warehouse_table .table_list td:nth-last-child(1) {
+        border-right: none; }
+      .adminWarehouse .warehouse_text .warehouse_table .table_list .list_btn input {
+        cursor: pointer; }
+      .adminWarehouse .warehouse_text .warehouse_table .list_item {
+        width: 10%;
+        height: 32px; }
+      .adminWarehouse .warehouse_text .warehouse_table .list_item_big {
+        width: 20%; }
+      .adminWarehouse .warehouse_text .warehouse_table tr:nth-child(2n) {
+        background-color: #eeeeee; }
+      .adminWarehouse .warehouse_text .warehouse_table tr:nth-child(2n+1) {
+        background-color: #5d79f8; }
+        .adminWarehouse .warehouse_text .warehouse_table tr:nth-child(2n+1) input {
+          color: #eee; }
+      .adminWarehouse .warehouse_text .warehouse_table tr:nth-child(1) {
+        background-color: #263993; }
+
+/*# sourceMappingURL=admin_warehouse.css.map */

@@ -1,0 +1,124 @@
+@import "../base/base.scss";
+@import "./index_header/indexHeader.scss";
+@import "./index_footer/indexFooter.scss";
+//  index_header
+.indexHeader {
+  @include index_header;
+}
+
+//  index_footer
+.indexFooter {
+  height: 610px;
+  @include index_footer;
+}
+
+//  support_nav
+.supportNav {
+  h4 {
+    color: #fff;
+    font-size: $font16;
+    height: 20px;
+    padding: 40px 0 56px;
+  }
+
+  background-color: $logo_color_blue;
+  border-bottom: #fff 2px solid;
+
+  .center_wrap {
+    position: relative;
+
+    .support_nav_list {
+      display: flex;
+      justify-content: space-between;
+      height: 100px;
+
+
+
+      .support_nav_item {
+        flex-direction: row;
+        width: 12.5%;
+        height: 100px;
+        text-align: center;
+      }
+    }
+
+    .line {
+      height: 4px;
+      width: 12.5%;
+      background-color: #fff;
+      position: absolute;
+      bottom: 0;
+    }
+
+  }
+}
+
+//  support_content
+.supportContent{
+  img {
+    display: block;
+  }
+
+  h3 {
+    font-size: 40px;
+    color: #FFF;
+  }
+
+    .banner {
+      background: url("../../../yongtong/resources/img/index_industry/banner.jpg") no-repeat;
+      height: 350px;
+      width: 100%;
+      background-size: cover;
+
+      .title {
+        padding: 90px 0 30px
+      }
+
+      p {
+        font-size: $font16;
+        color: #FFF;
+        line-height: 1.5;
+      }
+    }
+
+  .content {
+    .text_list {
+      .text_item {
+        .title {
+          height: 46px;
+          padding: 20px 0 10px;
+          position: relative;
+
+          .line {
+            position: absolute;
+            left: 48.3%;
+            height: 4px;
+            width: 40px;
+            background-color: $logo_color_blue;
+          }
+
+          h3 {
+            color: $title_color;
+            font-size: $font18;
+            padding-top: 10px;
+            font-weight: bold;
+            height: 36px;
+            text-align: center;
+
+          }
+        }
+
+        .word {
+          margin-bottom: 16px;
+
+          p {
+            line-height: 1.6;
+            color: $other_color;
+            font-size: $font16;
+            margin-bottom: 8px;
+          }
+        }
+      }
+    }
+  }
+  }

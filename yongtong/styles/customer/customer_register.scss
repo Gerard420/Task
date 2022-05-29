@@ -1,0 +1,90 @@
+@import "../../styles/base/base.scss";
+@import "../../styles/shopping/shopping_header/shoppingHeader.scss";
+@import "../../styles/customer/customer_header/customer_header.scss";
+@import "../../styles/index/index_footer/indexFooter.scss";
+//  shopping_header
+.shoppingHeader {
+  @include shopping_header
+}
+
+
+//  customer_header
+.customerHeaderRegister {
+  @include customer_header;
+}
+
+@mixin customer_form {
+  form {
+    display: flex;
+    flex-wrap: wrap;
+
+    .form_item {
+      width: 100%;
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+
+      .input_item {
+        width: 50%;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: nowrap;
+        align-items: center;
+
+        span {
+          flex-direction: row;
+          font-size: $font18;
+        }
+
+        input {
+          flex-direction: row;
+          width: 270px;
+          height: 30px;
+          font-size: 14px;
+          padding-left: 1rem;
+        }
+
+
+      }
+
+      .warning_item {
+        flex-direction: column;
+        font-size: 14px;
+        color: red;
+        margin-top: 12px;
+        height: 14px;
+      }
+
+      .btn {
+        width: 320px;
+        height: 36px;
+        border: none;
+        color: #fff;
+        background-color: $logo_color_org;
+        padding-left: 0;
+      }
+    }
+  }
+}
+
+//  customer_content
+.customerBodyRegister {
+  //border-bottom: 1.5px solid red;
+
+
+  .register_form {
+    width: 80%;
+    margin: 60px auto;
+
+    @include customer_form
+
+  }
+}
+
+//  index_footer
+.indexFooter {
+  height: 610px;
+  @include index_footer
+}

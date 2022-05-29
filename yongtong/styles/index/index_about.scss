@@ -1,0 +1,77 @@
+@import "../base/base.scss";
+@import "./index_header/indexHeader.scss";
+@import "./index_footer/indexFooter.scss";
+//  index_header
+.indexHeader {
+  @include index_header;
+}
+//  index_about
+.indexAbout{
+  .banner {
+    height: 350px;
+    background: url("../../../yongtong/resources/img/index_about/banner1.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+
+    .title {
+      padding: 90px 0 30px;
+    }
+
+    h3 {
+      font-size: 40px;
+      color: #FFF;
+
+    }
+
+  }
+
+  .content {
+    .text_list {
+      .text_item {
+        .title {
+          height: 46px;
+          padding: 20px 0;
+          position: relative;
+
+          .line {
+            position: absolute;
+            left: 48.3%;
+            height: 4px;
+            width: 40px;
+            background-color: $logo_color_blue;
+          }
+
+          h3 {
+            color: $title_color;
+            font-size: $font18;
+            padding-top: 10px;
+            font-weight: bold;
+            height: 36px;
+            text-align: center;
+
+          }
+        }
+
+        .word {
+          margin-bottom: 16px;
+
+          p {
+            line-height: 1.6;
+            color: $other_color;
+            font-size: $font16;
+            margin-bottom: 14px;
+            padding: 0 200px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//  index_footer
+.indexFooter {
+  height: 610px;
+  @include index_footer;
+}
+
+

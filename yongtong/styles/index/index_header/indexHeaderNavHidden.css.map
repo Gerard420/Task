@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAsBA,YAAa;EACX,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM",
+"sources": ["../../base/base.scss"],
+"names": [],
+"file": "indexHeaderNavHidden.css"
+}

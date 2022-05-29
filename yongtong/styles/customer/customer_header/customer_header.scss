@@ -1,0 +1,63 @@
+@import "../../../styles/base/base.scss";
+
+@mixin customer_header {
+  img {
+    display: block;
+  }
+
+  height: 80px;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  border-bottom: 1.5px solid #cccccc;
+
+  .center_wrap {
+    display: flex;
+    height: 80px;
+    align-items: center;
+
+    .logo {
+      width: 146px;
+      height: 54px;
+      flex-direction: row;
+
+      img {
+        width: 146px;
+        height: 54px;
+      }
+    }
+
+    .title {
+      width: 76%;
+      height: 80px;
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+      margin-left: 30px;
+      justify-content: space-between;
+
+      h2 {
+        font-size: $font24;
+        margin-top: 6px;
+        font-weight: 530;
+      }
+
+      h3 {
+        margin-top: 12px;
+        font-size: 14px;
+        color: $other_color;
+        font-weight: 530;
+
+        span {
+          display: inline-block;
+          margin-left: 8px;
+
+          a {
+            color: red;
+            font-weight: 530;
+          }
+        }
+      }
+    }
+
+  }
+}

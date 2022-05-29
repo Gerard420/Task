@@ -1,0 +1,43 @@
+@import "../../styles/base/base.scss";
+@import "../../styles/shopping/shopping_header/shoppingHeader.scss";
+@import "../../styles/customer/customer_header/customer_header.scss";
+@import "./customer_register.scss";
+@import "../../styles/index/index_footer/indexFooter.scss";
+//  shopping_header
+.shoppingHeader {
+  @include shopping_header
+}
+
+
+//  customer_header
+.customerHeaderLogin {
+  @include customer_header;
+}
+
+//  customer_login
+.customerBodyLogin {
+  //border-bottom: 1.5px solid #ccc;
+
+  .login_form {
+    width: 80%;
+    margin: 100px auto;
+    @include customer_form;
+  }
+
+  .update_item {
+    font-size: $font12;
+    color: $other_color;
+    //margin-top: 24px;
+  }
+
+  .warning_item {
+    @include warning_item;
+  }
+
+}
+
+//  index_footer
+.indexFooter {
+  height: 610px;
+  @include index_footer
+}

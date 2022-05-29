@@ -1,0 +1,37 @@
+@import "../../styles/base/base.scss";
+@import "../../styles/shopping/shopping_header/shoppingHeader.scss";
+@import "../../styles/customer/customer_header/customer_header.scss";
+@import "../../styles/customer/customer_register.scss";
+@import "../../styles/index/index_footer/indexFooter.scss";
+
+//  shopping_header
+.shoppingHeader {
+  @include shopping_header
+}
+
+//  index_footer
+.indexFooter {
+  height: 610px;
+  @include index_footer
+}
+
+//  customer_header
+.customerHeaderUpdate {
+  @include customer_header;
+}
+
+//  customer_content
+.customerBodyChange {
+
+  .change_form {
+    margin: 80px auto;
+  }
+
+  @include customer_form;
+
+  .warning_item {
+    @include warning_item;
+  }
+}
+
+

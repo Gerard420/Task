@@ -1,0 +1,176 @@
+@charset "UTF-8";
+.center_wrap {
+  width: 1152px;
+  margin: 0 auto; }
+
+.center_wrap {
+  width: 1152px;
+  margin: 0 auto; }
+
+.center_wrap {
+  width: 1152px;
+  margin: 0 auto; }
+
+.indexHeader .header_top {
+  background-color: #263993;
+  height: 30px; }
+  .indexHeader .header_top .center_wrap .wrap {
+    height: 30px;
+    position: relative; }
+    .indexHeader .header_top .center_wrap .wrap .top_left {
+      position: absolute;
+      top: 50%;
+      margin-top: -8px;
+      right: 180px; }
+      .indexHeader .header_top .center_wrap .wrap .top_left .list {
+        color: #fff;
+        float: left;
+        text-align: center;
+        margin-right: 12px;
+        font-size: 12px; }
+    .indexHeader .header_top .center_wrap .wrap .top_right {
+      position: absolute;
+      right: 0; }
+      .indexHeader .header_top .center_wrap .wrap .top_right input {
+        border: 0;
+        background: transparent;
+        color: #fff;
+        border-bottom: 1px #fff solid;
+        width: 160px; }
+.indexHeader .header_nav {
+  height: 80px; }
+  .indexHeader .header_nav .center_wrap {
+    position: relative;
+    height: 80px; }
+    .indexHeader .header_nav .center_wrap .logo {
+      height: 80px; }
+      .indexHeader .header_nav .center_wrap .logo h1 {
+        height: 80px;
+        background-image: url(../../../../yongtong/resources/img/logo/logo_small_dark.png);
+        background-repeat: no-repeat;
+        background-size: 146px 54px;
+        background-position: left center;
+        /* 字首缩进，设置为负数可以隐藏文字 */
+        text-indent: -9999em; }
+    .indexHeader .header_nav .center_wrap .nav {
+      height: 80px;
+      position: absolute;
+      top: 0;
+      left: 160px; }
+      .indexHeader .header_nav .center_wrap .nav ul {
+        height: 80px; }
+        .indexHeader .header_nav .center_wrap .nav ul li {
+          float: left; }
+          .indexHeader .header_nav .center_wrap .nav ul li a {
+            font-size: 16px;
+            display: block;
+            padding: 30px 16px; }
+.indexHeader .nav_hidden {
+  z-index: 1;
+  position: absolute;
+  right: 32.5vw;
+  top: 30px; }
+  .indexHeader .nav_hidden .nav_hidden_list {
+    z-index: 1;
+    position: absolute; }
+    .indexHeader .nav_hidden .nav_hidden_list .nav_hidden_icon {
+      position: relative;
+      left: 41%;
+      width: 0;
+      height: 0;
+      border: 10px solid transparent;
+      border-bottom-color: #263993;
+      border-top: none; }
+    .indexHeader .nav_hidden .nav_hidden_list .nav_hidden_item {
+      z-index: 1;
+      width: 140px;
+      background: #263993;
+      box-sizing: border-box;
+      border-bottom: 1px solid #1a5799;
+      text-align: center;
+      height: 32px; }
+      .indexHeader .nav_hidden .nav_hidden_list .nav_hidden_item h3 {
+        padding-top: 6px;
+        font-size: 14px;
+        color: #ffffff; }
+    .indexHeader .nav_hidden .nav_hidden_list .nav_hidden_item:nth-last-child(1) {
+      border-bottom: none; }
+
+.indexAbout .banner {
+  height: 350px;
+  background: url("../../../yongtong/resources/img/index_about/banner1.jpg") no-repeat;
+  width: 100%;
+  background-size: cover; }
+  .indexAbout .banner .title {
+    padding: 90px 0 30px; }
+  .indexAbout .banner h3 {
+    font-size: 40px;
+    color: #FFF; }
+.indexAbout .content .text_list .text_item .title {
+  height: 46px;
+  padding: 20px 0;
+  position: relative; }
+  .indexAbout .content .text_list .text_item .title .line {
+    position: absolute;
+    left: 48.3%;
+    height: 4px;
+    width: 40px;
+    background-color: #263993; }
+  .indexAbout .content .text_list .text_item .title h3 {
+    color: #00448d;
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: bold;
+    height: 36px;
+    text-align: center; }
+.indexAbout .content .text_list .text_item .word {
+  margin-bottom: 16px; }
+  .indexAbout .content .text_list .text_item .word p {
+    line-height: 1.6;
+    color: #615f5f;
+    font-size: 16px;
+    margin-bottom: 14px;
+    padding: 0 200px; }
+
+.indexFooter {
+  height: 610px; }
+  .indexFooter .footer_top {
+    height: 430px;
+    padding: 50px; }
+    .indexFooter .footer_top .footer_logo img {
+      width: 146px;
+      height: 54px;
+      margin: 50px auto 30px; }
+    .indexFooter .footer_top .footer_nav .nav_list {
+      overflow: hidden; }
+      .indexFooter .footer_top .footer_nav .nav_list .list_item {
+        width: 20%;
+        float: left; }
+        .indexFooter .footer_top .footer_nav .nav_list .list_item h5 {
+          font-size: 16px;
+          color: #00448d;
+          font-weight: bold;
+          margin: 10px 0 20px; }
+        .indexFooter .footer_top .footer_nav .nav_list .list_item .list_wrap ul li {
+          padding-bottom: 6px; }
+          .indexFooter .footer_top .footer_nav .nav_list .list_item .list_wrap ul li a {
+            color: #615f5f;
+            font-size: 12px; }
+  .indexFooter .footer_bottom {
+    background-color: #263993;
+    height: 80px; }
+    .indexFooter .footer_bottom .center_wrap {
+      height: 80px; }
+    .indexFooter .footer_bottom .footer_information {
+      overflow: hidden;
+      padding: 32px 0; }
+      .indexFooter .footer_bottom .footer_information div {
+        float: right;
+        color: #fff;
+        font-weight: normal;
+        font-size: 12px;
+        padding: 0 6px; }
+      .indexFooter .footer_bottom .footer_information div:nth-child(1) {
+        float: left; }
+
+/*# sourceMappingURL=index_about.css.map */

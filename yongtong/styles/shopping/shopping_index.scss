@@ -1,0 +1,138 @@
+@import "../base/base.scss";
+@import "./shopping_header/shoppingHeader.scss";
+@import "../index/index_footer/indexFooter.scss";
+//  shopping_header
+.shoppingHeader {
+  @include shopping_header
+}
+
+//  index_footer
+.indexFooter {
+  height: 610px;
+  @include index_footer;
+}
+
+//  shopping_search
+.shoppingSearch {
+  img {
+    display: block;
+  }
+
+  height: 80px;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  border-bottom: 1.5px solid #cccccc;
+
+
+  .center_wrap {
+    display: flex;
+    height: 80px;
+    align-items: center;
+  }
+
+  .logo {
+    width: 146px;
+    height: 54px;
+    flex-direction: row;
+
+    img {
+      width: 146px;
+      height: 54px;
+    }
+  }
+
+  .search_form {
+    flex-direction: row;
+    margin-left: 56px;
+    display: flex;
+
+
+    .search_input {
+      height: 32px;
+      width: 420px;
+      background: transparent;
+      border: 2px solid $logo_color_blue;
+      //  圆角
+      //border-radius: 6px 0 0 6px;
+      font-size: 16px;
+      //  字符缩进
+      text-indent: 1rem;
+    }
+
+    .search_btn {
+      background-color: $logo_color_blue;
+      border: 0;
+      color: #FFFFFF;
+      font-size: 14px;
+      width: 60px;
+      height: 32px;
+      margin-left: 12px;
+      text-align: center;
+
+    }
+  }
+}
+
+.shoppingGoods {
+  background: rgba(238, 236, 236, 0.8);
+  padding: 28px 0 4px;
+
+  .shopping_list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+    .shopping_goods_item {
+      width: 23%;
+      margin-bottom: 24px;
+      background: #fff;
+
+      .goods_item {
+        .shopping_good_img {
+          img {
+            display: flex;
+            width: 100%;
+          }
+        }
+
+        .words {
+          padding: 6px 8px 12px;
+
+          .words_title {
+            margin-bottom: 14px;
+
+            h3 {
+              font-size: 18px;
+              font-weight: 550;
+            }
+          }
+
+          .words_info {
+            display: flex;
+            margin: 0 2px;
+            height: 100%;
+            justify-content: space-between;
+            font-size: 16px;
+            font-weight: 520;
+            color: $logo_color_org;
+
+            h4.words_num {
+              color: #888;
+            }
+          }
+
+        }
+      }
+    }
+
+    .shopping_goods_item_blank {
+      background: transparent;
+    }
+
+  }
+
+}
+
+

@@ -1,0 +1,39 @@
+@import "../base/base.scss";
+@import "./admin_nav/admin_nav.scss";
+
+
+
+//  admin_goods_update
+.admin_goods_update {
+  overflow: hidden;
+}
+
+//  admin_nav
+.adminNav {
+  float: left;
+  @include admin_nav;
+
+
+}
+
+//  admin_goods_update
+.adminGoodsUpdate {
+  width: 80%;
+  float: right;
+  @include admin_header;
+
+  .goods_text {
+    margin-top: 32px;
+
+    @include goods_text;
+
+    .goods_update input {
+      border: none;
+      color: #fff;
+      height: 34px;
+      background-color: $logo_color_blue;
+      cursor: pointer;
+    }
+  }
+}
+

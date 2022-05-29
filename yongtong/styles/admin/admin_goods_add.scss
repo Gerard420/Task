@@ -1,0 +1,46 @@
+@import "../base/base.scss";
+@import "./admin_nav/admin_nav.scss";
+
+
+.admin_goods_add {
+  overflow: hidden;
+}
+
+//  admin_nav
+.adminNav {
+  float: left;
+  @include admin_nav;
+}
+
+
+
+//  admin_goods_update
+.adminGoodsAdd {
+  width: 80%;
+  float: right;
+  @include admin_header;
+
+  .goods_text {
+    margin-top: 32px;
+
+    @include goods_text;
+
+    .goods_add input {
+      border: none;
+      color: #fff;
+      height: 34px;
+      background-color: $logo_color_blue;
+      cursor: pointer;
+    }
+  }
+
+  .warning_item {
+    @include warning_item;
+    margin-bottom: 8px;
+  }
+
+}
+
+.nav_item:nth-child(5) {
+  background: $logo_color_org;
+}

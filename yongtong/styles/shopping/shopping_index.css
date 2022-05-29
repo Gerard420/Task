@@ -1,0 +1,153 @@
+.center_wrap {
+  width: 1152px;
+  margin: 0 auto; }
+
+.center_wrap {
+  width: 1152px;
+  margin: 0 auto; }
+
+.center_wrap {
+  width: 1152px;
+  margin: 0 auto; }
+
+.shoppingHeader {
+  width: 100%;
+  height: 30px;
+  background-color: #263993;
+  color: #FFFFFF;
+  font-size: 12px; }
+  .shoppingHeader .text {
+    display: flex;
+    justify-content: space-between; }
+    .shoppingHeader .text .left {
+      display: flex; }
+      .shoppingHeader .text .left div {
+        margin-right: 12px;
+        margin-left: 4px;
+        margin-top: 6px; }
+        .shoppingHeader .text .left div a {
+          color: #FFFFFF;
+          font-size: 12px; }
+    .shoppingHeader .text .right {
+      display: flex; }
+      .shoppingHeader .text .right div {
+        margin-left: 12px;
+        margin-right: 4px;
+        margin-top: 6px; }
+
+.indexFooter {
+  height: 610px; }
+  .indexFooter .footer_top {
+    height: 430px;
+    padding: 50px; }
+    .indexFooter .footer_top .footer_logo img {
+      width: 146px;
+      height: 54px;
+      margin: 50px auto 30px; }
+    .indexFooter .footer_top .footer_nav .nav_list {
+      overflow: hidden; }
+      .indexFooter .footer_top .footer_nav .nav_list .list_item {
+        width: 20%;
+        float: left; }
+        .indexFooter .footer_top .footer_nav .nav_list .list_item h5 {
+          font-size: 16px;
+          color: #00448d;
+          font-weight: bold;
+          margin: 10px 0 20px; }
+        .indexFooter .footer_top .footer_nav .nav_list .list_item .list_wrap ul li {
+          padding-bottom: 6px; }
+          .indexFooter .footer_top .footer_nav .nav_list .list_item .list_wrap ul li a {
+            color: #615f5f;
+            font-size: 12px; }
+  .indexFooter .footer_bottom {
+    background-color: #263993;
+    height: 80px; }
+    .indexFooter .footer_bottom .center_wrap {
+      height: 80px; }
+    .indexFooter .footer_bottom .footer_information {
+      overflow: hidden;
+      padding: 32px 0; }
+      .indexFooter .footer_bottom .footer_information div {
+        float: right;
+        color: #fff;
+        font-weight: normal;
+        font-size: 12px;
+        padding: 0 6px; }
+      .indexFooter .footer_bottom .footer_information div:nth-child(1) {
+        float: left; }
+
+.shoppingSearch {
+  height: 80px;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  border-bottom: 1.5px solid #cccccc; }
+  .shoppingSearch img {
+    display: block; }
+  .shoppingSearch .center_wrap {
+    display: flex;
+    height: 80px;
+    align-items: center; }
+  .shoppingSearch .logo {
+    width: 146px;
+    height: 54px;
+    flex-direction: row; }
+    .shoppingSearch .logo img {
+      width: 146px;
+      height: 54px; }
+  .shoppingSearch .search_form {
+    flex-direction: row;
+    margin-left: 56px;
+    display: flex; }
+    .shoppingSearch .search_form .search_input {
+      height: 32px;
+      width: 420px;
+      background: transparent;
+      border: 2px solid #263993;
+      font-size: 16px;
+      text-indent: 1rem; }
+    .shoppingSearch .search_form .search_btn {
+      background-color: #263993;
+      border: 0;
+      color: #FFFFFF;
+      font-size: 14px;
+      width: 60px;
+      height: 32px;
+      margin-left: 12px;
+      text-align: center; }
+
+.shoppingGoods {
+  background: rgba(238, 236, 236, 0.8);
+  padding: 28px 0 4px; }
+  .shoppingGoods .shopping_list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .shoppingGoods .shopping_list .shopping_goods_item {
+      width: 23%;
+      margin-bottom: 24px;
+      background: #fff; }
+      .shoppingGoods .shopping_list .shopping_goods_item .goods_item .shopping_good_img img {
+        display: flex;
+        width: 100%; }
+      .shoppingGoods .shopping_list .shopping_goods_item .goods_item .words {
+        padding: 6px 8px 12px; }
+        .shoppingGoods .shopping_list .shopping_goods_item .goods_item .words .words_title {
+          margin-bottom: 14px; }
+          .shoppingGoods .shopping_list .shopping_goods_item .goods_item .words .words_title h3 {
+            font-size: 18px;
+            font-weight: 550; }
+        .shoppingGoods .shopping_list .shopping_goods_item .goods_item .words .words_info {
+          display: flex;
+          margin: 0 2px;
+          height: 100%;
+          justify-content: space-between;
+          font-size: 16px;
+          font-weight: 520;
+          color: #E8502E; }
+          .shoppingGoods .shopping_list .shopping_goods_item .goods_item .words .words_info h4.words_num {
+            color: #888; }
+    .shoppingGoods .shopping_list .shopping_goods_item_blank {
+      background: transparent; }
+
+/*# sourceMappingURL=shopping_index.css.map */

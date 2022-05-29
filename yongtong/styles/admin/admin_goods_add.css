@@ -1,0 +1,100 @@
+.center_wrap {
+  width: 1152px;
+  margin: 0 auto; }
+
+.center_wrap {
+  width: 1152px;
+  margin: 0 auto; }
+
+.admin_goods_add {
+  overflow: hidden; }
+
+.adminNav {
+  float: left;
+  height: 100%;
+  width: 20%;
+  background-color: #263993;
+  position: fixed; }
+  .adminNav img {
+    display: inline-block;
+    width: 146px;
+    height: 54px; }
+  .adminNav .nav_list {
+    display: flex;
+    flex-wrap: wrap; }
+    .adminNav .nav_list .nav_item {
+      flex-direction: column;
+      width: 100%;
+      height: 72px;
+      border-bottom: 0.8px solid #fff; }
+      .adminNav .nav_list .nav_item .nav_img {
+        height: 96px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .adminNav .nav_list .nav_item .nav_title {
+        display: flex;
+        width: 100%;
+        height: 72px;
+        justify-content: center;
+        align-items: center; }
+        .adminNav .nav_list .nav_item .nav_title h3 {
+          color: #ddd;
+          font-size: 20px; }
+    .adminNav .nav_list .nav_item:nth-child(1) {
+      height: 96px; }
+
+.adminGoodsAdd {
+  width: 80%;
+  float: right; }
+  .adminGoodsAdd .goods_header {
+    width: 100%;
+    height: 96px;
+    background-color: #263993; }
+    .adminGoodsAdd .goods_header .center_wrap {
+      height: 96px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .adminGoodsAdd .goods_header .center_wrap h2 {
+        color: #fff;
+        font-size: 38px;
+        font-weight: 650; }
+  .adminGoodsAdd .goods_text {
+    margin-top: 32px; }
+    .adminGoodsAdd .goods_text form {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      .adminGoodsAdd .goods_text form .list_item {
+        width: 80%;
+        height: 42px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 24px; }
+        .adminGoodsAdd .goods_text form .list_item span {
+          width: 160px; }
+        .adminGoodsAdd .goods_text form .list_item input {
+          width: 400px;
+          height: 30px;
+          padding-left: 12px; }
+    .adminGoodsAdd .goods_text .goods_add input {
+      border: none;
+      color: #fff;
+      height: 34px;
+      background-color: #263993;
+      cursor: pointer; }
+  .adminGoodsAdd .warning_item {
+    color: red;
+    text-align: center;
+    margin-bottom: 8px; }
+
+.nav_item:nth-child(5) {
+  background: #E8502E; }
+
+/*# sourceMappingURL=admin_goods_add.css.map */

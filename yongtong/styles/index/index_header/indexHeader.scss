@@ -1,0 +1,150 @@
+@import "../../base/base.scss";
+
+//  index_header
+
+@mixin index_header {
+  .header_top {
+    background-color: $logo_color_blue;
+    height: 30px;
+
+
+    .center_wrap {
+      .wrap {
+        height: 30px;
+        //overflow: hidden;
+        position: relative;
+
+        .top_left {
+          position: absolute;
+          top: 50%;
+          margin-top: -8px;
+          right: 180px;
+
+          //float: left;
+          ////padding: ;
+          .list {
+            color: #fff;
+            float: left;
+            text-align: center;
+            margin-right: 12px;
+            font-size: $font12;
+          }
+        }
+
+        .top_right {
+          //float: right;
+          position: absolute;
+          right: 0;
+
+          input {
+            border: 0;
+            background: transparent;
+            color: #fff;
+            border-bottom: 1px #fff solid;
+            width: 160px;
+
+          }
+        }
+      }
+    }
+  }
+
+  .header_nav {
+    height: 80px;
+
+    .center_wrap {
+      position: relative;
+      height: 80px;
+
+
+      .logo {
+        height: 80px;
+
+
+        h1 {
+          height: 80px;
+          background-image: url(../../../../yongtong/resources/img/logo/logo_small_dark.png);
+          background-repeat: no-repeat;
+          background-size: 146px 54px;
+          background-position: left center;
+          /* 字首缩进，设置为负数可以隐藏文字 */
+          text-indent: -9999em;
+
+        }
+      }
+
+      .nav {
+        height: 80px;
+        position: absolute;
+        top: 0;
+        left: 160px;
+
+        ul {
+          height: 80px;
+
+
+          li {
+            float: left;
+            //background-color: #fff;
+
+            a {
+              font-size: $font16;
+              display: block;
+              padding: 30px 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .nav_hidden {
+    z-index: 1;
+    position: absolute;
+    right: 32.5vw;
+    top: 30px;
+
+    .nav_hidden_list {
+      z-index: 1;
+      position: absolute;
+
+      .nav_hidden_icon {
+        position: relative;
+        left: 41%;
+        width: 0;
+        height: 0;
+        border: 10px solid transparent;
+        border-bottom-color: $logo_color_blue;
+        border-top: none;
+      }
+
+      .nav_hidden_item {
+        z-index: 1;
+        width: 140px;
+        background: $logo_color_blue;
+        box-sizing: border-box;
+        border-bottom: 1px solid #1a5799;
+        text-align: center;
+        height: 32px;
+
+        h3 {
+          padding-top: 6px;
+          font-size: 14px;
+          color: #ffffff;
+
+        }
+      }
+
+      .nav_hidden_item:nth-last-child(1) {
+        border-bottom: none;
+      }
+    }
+
+  }
+}
+
+
+
+
+
+
+
